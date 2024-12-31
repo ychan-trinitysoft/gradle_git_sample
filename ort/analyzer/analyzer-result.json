@@ -1,22 +1,22 @@
 {
   "repository" : {
     "vcs" : {
-      "type" : "",
-      "url" : "",
-      "revision" : "",
+      "type" : "Git",
+      "url" : "https://github.com/ychan-trinitysoft/gradle_git_sample.git",
+      "revision" : "d687d8a44248ce14524ac5f14d111d98af3aa000",
       "path" : ""
     },
     "vcs_processed" : {
-      "type" : "",
-      "url" : "",
-      "revision" : "",
+      "type" : "Git",
+      "url" : "https://github.com/ychan-trinitysoft/gradle_git_sample.git",
+      "revision" : "d687d8a44248ce14524ac5f14d111d98af3aa000",
       "path" : ""
     },
     "config" : { }
   },
   "analyzer" : {
-    "start_time" : "2024-12-23T08:32:28.537237270Z",
-    "end_time" : "2024-12-23T08:32:45.824275549Z",
+    "start_time" : "2024-12-27T05:44:38.279515477Z",
+    "end_time" : "2024-12-27T05:45:27.877441675Z",
     "environment" : {
       "ort_version" : "DOCKER-SNAPSHOT",
       "build_jdk" : "21.0.5+11-LTS",
@@ -38,7 +38,7 @@
     "result" : {
       "projects" : [ {
         "id" : "Gradle:org.trinity:gradle_git_sample:1.0-SNAPSHOT",
-        "definition_file_path" : "",
+        "definition_file_path" : "build.gradle",
         "declared_licenses" : [ ],
         "declared_licenses_processed" : { },
         "vcs" : {
@@ -48,295 +48,219 @@
           "path" : ""
         },
         "vcs_processed" : {
-          "type" : "",
-          "url" : "",
-          "revision" : "",
+          "type" : "Git",
+          "url" : "https://github.com/ychan-trinitysoft/gradle_git_sample.git",
+          "revision" : "d687d8a44248ce14524ac5f14d111d98af3aa000",
           "path" : ""
         },
         "homepage_url" : "",
-        "scope_names" : [ "testCompileClasspath", "testRuntimeClasspath" ]
+        "scope_names" : [ "compileClasspath", "runtimeClasspath", "testCompileClasspath", "testRuntimeClasspath" ]
+      }, {
+        "id" : "SpdxDocumentFile::gradle_git_sample:1.0-SNAPSHOT",
+        "definition_file_path" : "build/spdx/release.spdx.json",
+        "declared_licenses" : [ "NOASSERTION" ],
+        "declared_licenses_processed" : {
+          "spdx_expression" : "NOASSERTION"
+        },
+        "vcs" : {
+          "type" : "Git",
+          "url" : "https://github.com/ychan-trinitysoft/gradle_git_sample.git",
+          "revision" : "d687d8a44248ce14524ac5f14d111d98af3aa000",
+          "path" : "build/spdx"
+        },
+        "vcs_processed" : {
+          "type" : "Git",
+          "url" : "https://github.com/ychan-trinitysoft/gradle_git_sample.git",
+          "revision" : "d687d8a44248ce14524ac5f14d111d98af3aa000",
+          "path" : "build/spdx"
+        },
+        "homepage_url" : "",
+        "scope_names" : [ "default" ]
       } ],
       "packages" : [ {
-        "id" : "Maven:org.apiguardian:apiguardian-api:1.1.2",
-        "purl" : "pkg:maven/org.apiguardian/apiguardian-api@1.1.2",
-        "authors" : [ "@API Guardian Team" ],
-        "declared_licenses" : [ "The Apache License, Version 2.0" ],
+        "id" : "Maven:io.reactivex.rxjava3:rxjava:3.1.7",
+        "purl" : "pkg:maven/io.reactivex.rxjava3/rxjava@3.1.7",
+        "authors" : [ "David Karnok" ],
+        "declared_licenses" : [ "The Apache Software License, Version 2.0" ],
         "declared_licenses_processed" : {
           "spdx_expression" : "Apache-2.0",
           "mapped" : {
-            "The Apache License, Version 2.0" : "Apache-2.0"
+            "The Apache Software License, Version 2.0" : "Apache-2.0"
           }
         },
-        "description" : "@API Guardian",
-        "homepage_url" : "https://github.com/apiguardian-team/apiguardian",
+        "description" : "Reactive Extensions for Java",
+        "homepage_url" : "https://github.com/ReactiveX/RxJava",
         "binary_artifact" : {
-          "url" : "https://repo.maven.apache.org/maven2/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar",
+          "url" : "https://repo.maven.apache.org/maven2/io/reactivex/rxjava3/rxjava/3.1.7/rxjava-3.1.7.jar",
           "hash" : {
-            "value" : "a231e0d844d2721b0fa1b238006d15c6ded6842a",
+            "value" : "3b2593157a6e7b50cd812a126e6859c5654e6666",
             "algorithm" : "SHA-1"
           }
         },
         "source_artifact" : {
-          "url" : "https://repo.maven.apache.org/maven2/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2-sources.jar",
+          "url" : "https://repo.maven.apache.org/maven2/io/reactivex/rxjava3/rxjava/3.1.7/rxjava-3.1.7-sources.jar",
           "hash" : {
-            "value" : "e0787a997746ac32639e0bf3cb27af8dce8a3428",
+            "value" : "02a2ef30ffbb6ae35f5f24fcf1aabf07dc22fe1f",
             "algorithm" : "SHA-1"
           }
         },
         "vcs" : {
           "type" : "Git",
-          "url" : "git://github.com/apiguardian-team/apiguardian.git",
+          "url" : "git://github.com/ReactiveX/RxJava.git",
           "revision" : "",
           "path" : ""
         },
         "vcs_processed" : {
           "type" : "Git",
-          "url" : "https://github.com/apiguardian-team/apiguardian.git",
+          "url" : "https://github.com/ReactiveX/RxJava.git",
           "revision" : "",
           "path" : ""
         }
       }, {
-        "id" : "Maven:org.junit.jupiter:junit-jupiter:5.10.0",
-        "purl" : "pkg:maven/org.junit.jupiter/junit-jupiter@5.10.0",
-        "authors" : [ "Christian Stein", "Johannes Link", "Juliette de Rancourt", "Marc Philipp", "Matthias Merdes", "Sam Brannen", "Stefan Bechtold" ],
-        "declared_licenses" : [ "Eclipse Public License v2.0" ],
+        "id" : "Maven:org.reactivestreams:reactive-streams:1.0.4",
+        "purl" : "pkg:maven/org.reactivestreams/reactive-streams@1.0.4",
+        "authors" : [ "Reactive Streams SIG" ],
+        "declared_licenses" : [ "MIT-0" ],
         "declared_licenses_processed" : {
-          "spdx_expression" : "EPL-2.0",
-          "mapped" : {
-            "Eclipse Public License v2.0" : "EPL-2.0"
-          }
+          "spdx_expression" : "MIT-0"
         },
-        "description" : "Module \"junit-jupiter\" of JUnit 5.",
-        "homepage_url" : "https://junit.org/junit5/",
+        "description" : "A Protocol for Asynchronous Non-Blocking Data Sequence",
+        "homepage_url" : "http://www.reactive-streams.org/",
         "binary_artifact" : {
-          "url" : "https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter/5.10.0/junit-jupiter-5.10.0.jar",
+          "url" : "https://repo.maven.apache.org/maven2/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar",
           "hash" : {
-            "value" : "8fea1d9c58b2156f1b998f2f18da04bc9e087f74",
+            "value" : "3864a1320d97d7b045f729a326e1e077661f31b7",
             "algorithm" : "SHA-1"
           }
         },
         "source_artifact" : {
-          "url" : "https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter/5.10.0/junit-jupiter-5.10.0-sources.jar",
+          "url" : "https://repo.maven.apache.org/maven2/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4-sources.jar",
           "hash" : {
-            "value" : "4e79ee610aff59d79b5f229252ded392b7d48fd1",
+            "value" : "d3cddd3497e618c6d3810ef439f13666f889abe4",
             "algorithm" : "SHA-1"
           }
         },
         "vcs" : {
           "type" : "Git",
-          "url" : "git://github.com/junit-team/junit5.git",
+          "url" : "git@github.com:reactive-streams/reactive-streams.git",
           "revision" : "",
           "path" : ""
         },
         "vcs_processed" : {
           "type" : "Git",
-          "url" : "https://github.com/junit-team/junit5.git",
+          "url" : "ssh://git@github.com/reactive-streams/reactive-streams.git",
           "revision" : "",
           "path" : ""
         }
       }, {
-        "id" : "Maven:org.junit.jupiter:junit-jupiter-api:5.10.0",
-        "purl" : "pkg:maven/org.junit.jupiter/junit-jupiter-api@5.10.0",
-        "authors" : [ "Christian Stein", "Johannes Link", "Juliette de Rancourt", "Marc Philipp", "Matthias Merdes", "Sam Brannen", "Stefan Bechtold" ],
-        "declared_licenses" : [ "Eclipse Public License v2.0" ],
+        "id" : "SpdxDocumentFile::io.reactivex.rxjava3 rxjava:3.1.7",
+        "purl" : "pkg:maven/io.reactivex.rxjava3/rxjava@3.1.7?repository_url=repo.maven.apache.org%2Fmaven2",
+        "declared_licenses" : [ "Apache-2.0" ],
         "declared_licenses_processed" : {
-          "spdx_expression" : "EPL-2.0",
-          "mapped" : {
-            "Eclipse Public License v2.0" : "EPL-2.0"
-          }
+          "spdx_expression" : "Apache-2.0"
         },
-        "description" : "Module \"junit-jupiter-api\" of JUnit 5.",
-        "homepage_url" : "https://junit.org/junit5/",
+        "description" : "",
+        "homepage_url" : "",
         "binary_artifact" : {
-          "url" : "https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.10.0/junit-jupiter-api-5.10.0.jar",
+          "url" : "",
           "hash" : {
-            "value" : "2fe4ba3d31d5067878e468c96aa039005a9134d3",
-            "algorithm" : "SHA-1"
+            "value" : "",
+            "algorithm" : ""
           }
         },
         "source_artifact" : {
-          "url" : "https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.10.0/junit-jupiter-api-5.10.0-sources.jar",
+          "url" : "https://repo.maven.apache.org/maven2/io/reactivex/rxjava3/rxjava/3.1.7/rxjava-3.1.7.jar",
           "hash" : {
-            "value" : "551bc33910fee1c601da155a77f67f70f66f6a27",
-            "algorithm" : "SHA-1"
+            "value" : "",
+            "algorithm" : ""
           }
         },
         "vcs" : {
           "type" : "Git",
-          "url" : "git://github.com/junit-team/junit5.git",
-          "revision" : "",
-          "path" : ""
+          "url" : "https://github.com/ychan-trinitysoft/gradle_git_sample.git",
+          "revision" : "d687d8a44248ce14524ac5f14d111d98af3aa000",
+          "path" : "build/spdx"
         },
         "vcs_processed" : {
           "type" : "Git",
-          "url" : "https://github.com/junit-team/junit5.git",
-          "revision" : "",
-          "path" : ""
+          "url" : "https://github.com/ychan-trinitysoft/gradle_git_sample.git",
+          "revision" : "d687d8a44248ce14524ac5f14d111d98af3aa000",
+          "path" : "build/spdx"
         }
       }, {
-        "id" : "Maven:org.junit.jupiter:junit-jupiter-params:5.10.0",
-        "purl" : "pkg:maven/org.junit.jupiter/junit-jupiter-params@5.10.0",
-        "authors" : [ "Christian Stein", "Johannes Link", "Juliette de Rancourt", "Marc Philipp", "Matthias Merdes", "Sam Brannen", "Stefan Bechtold" ],
-        "declared_licenses" : [ "Eclipse Public License v2.0" ],
+        "id" : "SpdxDocumentFile::org.reactivestreams reactive-streams:1.0.4",
+        "purl" : "pkg:maven/org.reactivestreams/reactive-streams@1.0.4?repository_url=repo.maven.apache.org%2Fmaven2",
+        "declared_licenses" : [ "LicenseRef-gnrtd0" ],
         "declared_licenses_processed" : {
-          "spdx_expression" : "EPL-2.0",
-          "mapped" : {
-            "Eclipse Public License v2.0" : "EPL-2.0"
-          }
+          "spdx_expression" : "LicenseRef-gnrtd0"
         },
-        "description" : "Module \"junit-jupiter-params\" of JUnit 5.",
-        "homepage_url" : "https://junit.org/junit5/",
+        "description" : "",
+        "homepage_url" : "",
         "binary_artifact" : {
-          "url" : "https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-params/5.10.0/junit-jupiter-params-5.10.0.jar",
+          "url" : "",
           "hash" : {
-            "value" : "9041c7365495a897a64782ea5a6fdb99dab1814e",
-            "algorithm" : "SHA-1"
+            "value" : "",
+            "algorithm" : ""
           }
         },
         "source_artifact" : {
-          "url" : "https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-params/5.10.0/junit-jupiter-params-5.10.0-sources.jar",
+          "url" : "https://repo.maven.apache.org/maven2/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar",
           "hash" : {
-            "value" : "06c4fb5ab59bbc63438f3c618d769c4eddd65654",
-            "algorithm" : "SHA-1"
+            "value" : "",
+            "algorithm" : ""
           }
         },
         "vcs" : {
           "type" : "Git",
-          "url" : "git://github.com/junit-team/junit5.git",
-          "revision" : "",
-          "path" : ""
+          "url" : "https://github.com/ychan-trinitysoft/gradle_git_sample.git",
+          "revision" : "d687d8a44248ce14524ac5f14d111d98af3aa000",
+          "path" : "build/spdx"
         },
         "vcs_processed" : {
           "type" : "Git",
-          "url" : "https://github.com/junit-team/junit5.git",
-          "revision" : "",
-          "path" : ""
-        }
-      }, {
-        "id" : "Maven:org.junit.platform:junit-platform-commons:1.10.0",
-        "purl" : "pkg:maven/org.junit.platform/junit-platform-commons@1.10.0",
-        "authors" : [ "Christian Stein", "Johannes Link", "Juliette de Rancourt", "Marc Philipp", "Matthias Merdes", "Sam Brannen", "Stefan Bechtold" ],
-        "declared_licenses" : [ "Eclipse Public License v2.0" ],
-        "declared_licenses_processed" : {
-          "spdx_expression" : "EPL-2.0",
-          "mapped" : {
-            "Eclipse Public License v2.0" : "EPL-2.0"
-          }
-        },
-        "description" : "Module \"junit-platform-commons\" of JUnit 5.",
-        "homepage_url" : "https://junit.org/junit5/",
-        "binary_artifact" : {
-          "url" : "https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.10.0/junit-platform-commons-1.10.0.jar",
-          "hash" : {
-            "value" : "d533ff2c286eaf963566f92baf5f8a06628d2609",
-            "algorithm" : "SHA-1"
-          }
-        },
-        "source_artifact" : {
-          "url" : "https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.10.0/junit-platform-commons-1.10.0-sources.jar",
-          "hash" : {
-            "value" : "74f2f9694d30effa2caff679b9f02ba832cbd1ac",
-            "algorithm" : "SHA-1"
-          }
-        },
-        "vcs" : {
-          "type" : "Git",
-          "url" : "git://github.com/junit-team/junit5.git",
-          "revision" : "",
-          "path" : ""
-        },
-        "vcs_processed" : {
-          "type" : "Git",
-          "url" : "https://github.com/junit-team/junit5.git",
-          "revision" : "",
-          "path" : ""
-        }
-      }, {
-        "id" : "Maven:org.opentest4j:opentest4j:1.3.0",
-        "purl" : "pkg:maven/org.opentest4j/opentest4j@1.3.0",
-        "authors" : [ "Johannes Link", "Marc Philipp", "Matthias Merdes", "Sam Brannen", "Stefan Bechtold" ],
-        "declared_licenses" : [ "The Apache License, Version 2.0" ],
-        "declared_licenses_processed" : {
-          "spdx_expression" : "Apache-2.0",
-          "mapped" : {
-            "The Apache License, Version 2.0" : "Apache-2.0"
-          }
-        },
-        "description" : "Open Test Alliance for the JVM",
-        "homepage_url" : "https://github.com/ota4j-team/opentest4j",
-        "binary_artifact" : {
-          "url" : "https://repo.maven.apache.org/maven2/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar",
-          "hash" : {
-            "value" : "152ea56b3a72f655d4fd677fc0ef2596c3dd5e6e",
-            "algorithm" : "SHA-1"
-          }
-        },
-        "source_artifact" : {
-          "url" : "https://repo.maven.apache.org/maven2/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0-sources.jar",
-          "hash" : {
-            "value" : "afb8ff23cffb021c56f333953aebfe6e8818568e",
-            "algorithm" : "SHA-1"
-          }
-        },
-        "vcs" : {
-          "type" : "Git",
-          "url" : "git://github.com/ota4j-team/opentest4j.git",
-          "revision" : "",
-          "path" : ""
-        },
-        "vcs_processed" : {
-          "type" : "Git",
-          "url" : "https://github.com/ota4j-team/opentest4j.git",
-          "revision" : "",
-          "path" : ""
+          "url" : "https://github.com/ychan-trinitysoft/gradle_git_sample.git",
+          "revision" : "d687d8a44248ce14524ac5f14d111d98af3aa000",
+          "path" : "build/spdx"
         }
       } ],
       "dependency_graphs" : {
         "GradleInspector" : {
-          "packages" : [ "Maven:org.apiguardian:apiguardian-api:1.1.2", "Maven:org.junit.jupiter:junit-jupiter-api:5.10.0", "Maven:org.junit.jupiter:junit-jupiter-params:5.10.0", "Maven:org.junit.jupiter:junit-jupiter:5.10.0", "Maven:org.junit.platform:junit-platform-commons:1.10.0", "Maven:org.opentest4j:opentest4j:1.3.0" ],
+          "packages" : [ "Maven:io.reactivex.rxjava3:rxjava:3.1.7", "Maven:org.reactivestreams:reactive-streams:1.0.4" ],
           "scopes" : {
+            "org.trinity:gradle_git_sample:1.0-SNAPSHOT:compileClasspath" : [ {
+              "root" : 0
+            } ],
+            "org.trinity:gradle_git_sample:1.0-SNAPSHOT:runtimeClasspath" : [ {
+              "root" : 0
+            } ],
             "org.trinity:gradle_git_sample:1.0-SNAPSHOT:testCompileClasspath" : [ {
-              "root" : 3
+              "root" : 0
             } ],
             "org.trinity:gradle_git_sample:1.0-SNAPSHOT:testRuntimeClasspath" : [ {
-              "root" : 3
+              "root" : 0
             } ]
           },
           "nodes" : [ {
-            "pkg" : 5
-          }, { }, {
-            "pkg" : 4
-          }, {
             "pkg" : 1
-          }, {
-            "pkg" : 2
-          }, {
-            "pkg" : 3
-          } ],
+          }, { } ],
           "edges" : [ {
-            "from" : 2,
-            "to" : 1
-          }, {
-            "from" : 3,
+            "from" : 1,
             "to" : 0
-          }, {
-            "from" : 3,
-            "to" : 1
-          }, {
-            "from" : 3,
-            "to" : 2
-          }, {
-            "from" : 4,
-            "to" : 1
-          }, {
-            "from" : 4,
-            "to" : 3
-          }, {
-            "from" : 5,
-            "to" : 3
-          }, {
-            "from" : 5,
-            "to" : 4
+          } ]
+        },
+        "SpdxDocumentFile" : {
+          "packages" : [ "SpdxDocumentFile::io.reactivex.rxjava3 rxjava:3.1.7", "SpdxDocumentFile::org.reactivestreams reactive-streams:1.0.4" ],
+          "scopes" : {
+            ":gradle_git_sample:1.0-SNAPSHOT:default" : [ {
+              "root" : 0
+            } ]
+          },
+          "nodes" : [ {
+            "pkg" : 1
+          }, { } ],
+          "edges" : [ {
+            "from" : 1,
+            "to" : 0
           } ]
         }
       }

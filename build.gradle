@@ -1,6 +1,7 @@
 plugins {
     id 'java'
     id 'org.cyclonedx.bom' version '1.10.0'
+    id("org.spdx.sbom") version '0.8.0'
 }
 
 group = 'org.trinity'
@@ -11,10 +12,23 @@ repositories {
 }
 
 dependencies {
-    testImplementation platform('org.junit:junit-bom:5.10.0')
-    testImplementation 'org.junit.jupiter:junit-jupiter'
+//    testImplementation platform('org.junit:junit-bom:5.10.0')
+//    testImplementation 'org.junit.jupiter:junit-jupiter'
+    implementation 'io.reactivex.rxjava3:rxjava:3.1.7'
+//    implementation 'io.reactivex.rxjava3:rxandroid:3.0.2'
 }
 
 test {
     useJUnitPlatform()
+}
+
+// 기본 빌드가 없으므로 타겟을 지정해야 합니다.
+spdxSbom {
+    targets {
+        // "release"라는 이름의 대상을 생성합니다.
+        // 이것은 작업 이름(spdxSbomForRelease) 및 출력 파일(release.spdx.json)에 사용됩니다.
+        create("release") {
+            // 여기에서 구성하세요
+        }
+    }
 }
